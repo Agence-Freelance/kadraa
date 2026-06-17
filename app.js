@@ -197,17 +197,6 @@ formInputs.forEach((input, index) => {
     }, 200 * index);
 });
 
-// Animation d’ouverture du sidebar
-function openSidebar() {
-    document.getElementById("sidebar").classList.add("active");
-    document.body.classList.add("active");
-}
-
-function closeSidebar() {
-    document.getElementById("sidebar").classList.remove("active");
-    document.body.classList.remove("active");
-}
-
 const serviceSelect = document.getElementById("service");
 const formuleSelect = document.getElementById("formule");
 const formuleGroup = document.getElementById("formule-group");
